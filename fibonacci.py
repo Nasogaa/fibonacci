@@ -7,7 +7,7 @@ def fab(x):
         return 1
     return fab(x-1) + fab(x-2)
 
-#main programm
+#mainprogramm
 for x in range (1, 11):
     print (fab(x))
 
